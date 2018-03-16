@@ -1,0 +1,23 @@
+{
+  "name": "rss-sirius",
+  "version": "1.0.0",
+  "description": "RSS News Relay Bot for Sirius",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "NODE_ENV=development nodemon ."
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "dotenv": "5.0.1",
+    "express": "4.16.3",
+    "feedparser-promised": "1.5.0",
+    "mongodb": "3.0.4",
+    "node-sparky": "4.4.0",
+    "request-promise-native": "1.0.5",
+    "winston": "2.4.1",
+    "winston-logrotate": "1.3.0"
+  }
+}
